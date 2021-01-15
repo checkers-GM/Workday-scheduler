@@ -6,7 +6,7 @@ $(document).ready(function() {
 
     $(".saveBtn").on("click", function() {
         // grab text inside of textArea
-        var userEntry = $(this).sibling(".description").val();
+        var userEntry = $(this).siblings(".description").val();
         var time = $(this).parent().attr("id");
 
         // save intol local storage
